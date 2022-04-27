@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+  scroll-behavior: smooth;
+  }
+  .container{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-evenly;
+      background-color: #0a253b;
+      height: 100vh;
+     
+    }
+
+ .left-body-header{
+     display: block;
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+    //  padding-left: 100px;
+    //  padding: 0;
+    
+     
+    //  margin-top: 200px;
+     color: white;
+     h1{
+         font-size: 30px;
+     }
+    p{
+        padding-top: 20px;
+    }
+    img{
+        height: 500px;
+       width: 500px;
+    }
+
+    
+     
+ }
+ 
+ .right-body-header{
+    //  margin-right: 30px;
+    background-color: white;
+    border-radius: 4px;
+    padding-top: 10px;
+    // padding-bottom: 0;
+    // padding-right: 100px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    // justify-content: flex-start;
+    align-items: center;
+
+    form{
+    //    border: solid white 2px;
+        border-radius: 4px;
+        height: 500px;
+        // width: 400px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        h1{
+            text-align: left;
+            color: black;
+            font-weight: 300;
+        }
+        h4{
+            text-align: left;
+            color: lightgray;
+            font-weight: 300;
+            padding-bottom: 50px;
+        }
+        button{
+            color: white;
+            background-color: #1fc1c3 ;
+        }
+       .inputbox{
+           margin: 10px;
+           padding: 0px;
+           width: 250px;
+           height: 40px;
+           padding-left: 10px;
+           border-radius: 4px;
+           border: 1px solid lightgray;
+       }
+       .formHeader{
+           padding-right: 30px;
+       }
+       
+    }
+}
+
+
+  
+  .header{
+    position: fixed;
+    top: 0;
+    padding: 10px 5px;
+    // margin-left: 5px;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border-bottom: solid 1px white;
+    img{
+        height: 65px;
+       width: 65px;
+       padding-top: 10px;
+    }
+   
+    a{
+        text-decoration: none;
+        // font-weight: 300;
+        font-size: 19px;
+        padding-top: 0;
+    }
+    .contactButton{
+        text-decoration: none;
+        text-align: center;
+        margin-top: 18px;
+        cursor: pointer;
+         
+        width: 150px;  
+        background-color: #1fc1c3;
+        font-weight: 300;
+       
+       
+        border-radius: 200px;
+        
+        height: 40px;
+        padding-top: 6px;
+        cursor: pointer;
+        
+    }
+}
+
+.servicesContainer{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: gold;
+  
+
+h1{
+    color: white;
+    font-style:link ;
+    text-align: center;
+    font-size: 120px;
+    border-bottom: 1px solid #1fc1c3;
+    // padding-right: 200px;
+    
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+li{
+   color: white;
+   font-size: 50px;
+   font-weight: 600;
+   list-style: none;
+}
+.servicesHeader{
+    margin-right: 40px;
+}
+.Contact-Button{
+    padding-top: 100px;
+    font-size: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    // background-color: #1fc1c3;
+    
+    h4{
+        border:#1fc1c3 solid 1px;
+        width: 200px;
+        height: 50px;
+        border-radius: 200px;
+        background-color: #1fc1c3;
+        padding-top:10px ;
+        font-weight: 200;
+        cursor: pointer;
+    }
+}
+}
+.Footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  background-color: #0a253b;
+  height: 200px;
+  .Socials{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  h1{
+      padding-bottom: 20px;
+      font-weight: 200;
+  }
+  i{
+      display: flex;
+    //   flex-direction: row;
+      font-size: 12px;
+  }
+  p{
+      padding-left: 10px;
+      font-size: 20px;
+      font-weight: 200;
+  }
+  .Instagram{
+    padding-right: 50px;
+    
+    // width: 100px;
+  }
+  .Copyright{
+      padding-top: 50px;
+      font-weight: 100;
+  }
+}
